@@ -1,0 +1,91 @@
+{
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch app.py",
+            "program": "${workspaceFolder}/${input:programPath}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch app.py",
+            "program": "${workspaceFolder}/${input:programPath}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch app.py",
+            "program": "${workspaceFolder}/${input:programPath}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch app.py",
+            "program": "${workspaceFolder}/${input:programPath}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch app.py",
+            "program": "${workspaceFolder}/${input:programPath}",
+            "console": "integratedTerminal"
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "programPath",
+            "description": "Select the Python file to debug",
+            "options": [
+                "app.py",
+                "main.py",
+                "notebooks/eda_preprocessing.py"
+            ]
+        },
+        {
+            "type": "pickString",
+            "id": "programPath",
+            "description": "Select the Python file to debug",
+            "options": [
+                "app.py",
+                "main.py",
+                "notebooks/eda_preprocessing.py"
+            ]
+        },
+        {
+            "type": "pickString",
+            "id": "programPath",
+            "description": "Select the Python file to debug",
+            "options": [
+                "app.py",
+                "main.py",
+                "notebooks/eda_preprocessing.py"
+            ]
+        },
+        {
+            "type": "pickString",
+            "id": "programPath",
+            "description": "Select the Python file to debug",
+            "options": [
+                "app.py",
+                "main.py",
+                "notebooks/eda_preprocessing.py"
+            ]
+        },
+        {
+            "type": "pickString",
+            "id": "programPath",
+            "description": "Select the Python file to debug",
+            "options": [
+                "app.py",
+                "main.py",
+                "notebooks/eda_preprocessing.py"
+            ]
+        }
+    ]
+}
